@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url("../JsPractice/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.tocenter{
+    justify-content: center;
+    width: 50%;
+}
+
+.form-content{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 15%;
+    box-shadow: 10px 10px 60px;
+}
+.form-head{
+    font: normal normal bold 250%/150% Roboto;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    opacity: 1;
+    color: #f30d0d;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.button {
+    font-size: 100%;
+    padding: 5%;
+    width: 32%;
+    border-radius: 4px;
+    opacity: 1;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.form{
+    width: 95%;
+    justify-content: center;
+}
+
+.input{
+    width: 100%;
+    resize: vertical;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding:  5%;
+    margin-bottom: 3%;
+
+}
+
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
+
+.login-content{
+    width: 50%;
+}
+
+.img{
+    width:95%;
+}
